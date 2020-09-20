@@ -1,10 +1,10 @@
 FROM alpine:edge
 
 ENV PORT        3000
-ENV PASSWORD    ChangeThis
+ENV PASSWORD    G0xp378Q
 ENV METHOD      chacha20-ietf-poly1305
 ENV PV          1.3.1
-ENV WSPATH="/ChangeThis"
+ENV WSPATH="/zhujun99170"
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk update && apk add --no-cache shadowsocks-libev curl && \
